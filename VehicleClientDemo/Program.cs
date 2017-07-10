@@ -28,7 +28,7 @@ namespace VehicleClientDemo
         {
             get
             {
-                _latitude += _latitude + (new Random().NextDouble()) / 1000;
+                _latitude += _latitude + (new Random().NextDouble()) / 3000;
                 return _latitude;
             }
         }
@@ -36,7 +36,7 @@ namespace VehicleClientDemo
         {
             get
             {
-                _longitude += (new Random().NextDouble()) / 1000;
+                _longitude += (new Random().NextDouble()) / 3000;
                 return _longitude;
             }
         }
